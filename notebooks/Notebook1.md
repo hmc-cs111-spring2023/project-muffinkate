@@ -34,6 +34,8 @@ tedious looping or angle changes abstracted using a function called "arc." I spe
 about other shapes that might be helpful, but since these are line designs, this felt the
 most simple way to still provide the user as much flexibility and creativity.
 
+![Simple Pantograph](images/simple_panto.PNG)
+
 
 
 
