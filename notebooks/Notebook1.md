@@ -55,7 +55,7 @@ on how to make that more fluent :) .
 
 Here is a slightly more complicated pantograph that uses arcs
 
-![Complicated Panto] (images/morecomplex_panto.PNG)
+![Complicated Panto](images/morecomplex_panto.PNG)
 
 propogate: vertical
 
