@@ -35,14 +35,21 @@ most simple way to still provide the user as much flexibility and creativity.
 ![Simple Pantograph](images/simple_panto.PNG)
 
 Program to generate the panto:
+
 propogate: vertical
 
 design:
+
 turn left 90
+
 draw 25
+
 turn right 90
+
 draw 50
+
 turn left 90
+
 draw 25
 
 The elements of the program are the settings on where to start the drawing (in this case, it would be
@@ -60,14 +67,21 @@ Here is a slightly more complicated pantograph that uses arcs
 propogate: vertical
 
 design:
+
 arc 180, radius 3
+
 arc 180, radius 2
+
 arc 180, radius 4
+
 arc 60, radius 4
 
 arc 30, radius 8
+
 arc 270, radius 4
+
 arc 180, radius 2
+
 arc 180, radius 3
 
 This is probably not a correct program, but the basic idea of the arc syntax is that it draws a arc
