@@ -49,7 +49,21 @@ I also implemented a way to change the spacing of the different drawings, within
 inch type scale, and also implemented a way to change the scale. However, it currently
 only does increases by a whole number and keeps both sides the same. So, the default
 is 12 x 12 inches, and it can only do 24 x 24, 36 x 36 ... etc. I think I need to add
-a second argument here so that someone can expand their function
+a second argument here so that someone can expand their screen to be whatever size 
+quit they'd like to visualize. It is important to note that the design length stays 
+the same even if the scale changes, so it would appear smaller if the "size" was 
+bigger. Because of this, I added an automatic horizontal propagation as well, so
+if the design doesn't reach the edge of the screen then the red turtle will fill
+the screen. The single first design stays black to communicate with the user what
+the design itself actually is, even though the program automatically copies it.
+
+I also did work to document how to write a program in this language and run it,
+since at this point the syntax is much more stable. Doing that let me also write
+down potential semantic errors and how best to communicate with the user what may
+be wrong. I also researched how to do parser errors, but ran out of time to start
+doing any implementation before writing this entry. As I complete most of the 
+basic implementation however, this is a much bigger priority and is still on the 
+list of things to do before the project is turned in.
 
 ## Questions
 
@@ -57,11 +71,27 @@ a second argument here so that someone can expand their function
 you need to make, what implementation issue are you trying to solve, or how
 are you evaluating your design and implementation?**
 
+The final implementation I want to get done is to figure out how to offset or
+rotate a design when it's getting propogated. I feel like this is an easier
+addition rather than only a vertical spacing. And then have real parser error
+messages. If I can get that done, then I'll feel like I have a minimum implementation
+to start looking at evaluation the design and implementation with. 
+
 **What questions do you have for your critique partners? How can they best help
 you?**
+
+I'd like their input on whether to have some kind of toggle or property for a
+individual line to be straight instead of curved - which will help the design
+maintain a horizontal trajectory, but adds some more complication to the 
+syntax design.
 
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the work?**
 
+8-9 ish hours.
+
 **Compared to what you wrote in your contract about what you want to get out of this
 project, how did this week go?**
+
+I think this week went well, but I need to get working on parser errors because
+I've been putting that off and I feel that it is important.
